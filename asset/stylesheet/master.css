@@ -1,0 +1,55 @@
+.box {
+  background-color: #E29626;
+  width: 100%;
+}
+
+.box > ul {
+  width: 50%;
+  -webkit-transform: translateX(50%);
+          transform: translateX(50%);
+}
+
+.box > ul > li {
+  position: relative;
+  text-align: justify;
+}
+
+.box > ul > li > h2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: burlywood;
+}
+
+.box > ul > li > h2 > p {
+  background-color: #de8787;
+  height: 50px;
+  color: white;
+  border: 1px solid gray;
+  -webkit-transition: 0.04s;
+  transition: 0.04s;
+}
+
+.box > ul > li > h2 > p:active {
+  background-color: aquamarine;
+}
+
+.box > ul > li > h5 {
+  height: 0;
+  opacity: 0;
+  border: 1px solid gray;
+  -webkit-transition: 1s;
+  transition: 1s;
+  padding: 5px;
+  font-family: 'sans-serif';
+  background-color: white;
+}
+
+.box > ul > li > h5:hover {
+  -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+          box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+/*# sourceMappingURL=master.css.map */
